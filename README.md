@@ -3,28 +3,15 @@
 Overview
 The Invoice Generation System is a Java-based application designed to streamline the process of calculating taxes and generating invoices for purchased products. It leverages predefined tax categories, tax groups, and products to ensure quick setup and ease of use. The system allows users to select products, calculates applicable taxes, and generates a comprehensive invoice.
 
-Features
-Predefined Taxes and Tax Groups: Includes various taxes like VAT, SGST, CGST, Luxury Tax, and Service Tax. Tax groups are defined to bundle relevant taxes together for easier application.
+How to Run the Project
 
-Predefined Products: The system comes with a list of predefined products, such as Rice, Petrol, Soap, Luxury Car, Consulting Service, Milk, Laptop, and Chair. Each product has an associated price and tax group.
+Prerequisites
+Ensure you have Eclipse IDE installed on your machine.
+Have the Java Development Kit (JDK) installed. You can verify the installation by running java -version in your terminal or command prompt.
 
-User Interaction: Users can select products from the predefined list via a console-based interface. The system robustly handles user input to prevent errors.
+Steps to Run in Eclipse
 
-Invoice Generation: Calculates total price and applicable taxes for selected products and generates a detailed invoice showing product details, total price, total tax, and grand total.
-
-Implementation Details
-Tax.java: Manages a map of predefined taxes with their percentages and provides methods to retrieve tax details.
-
-TaxGroup.java: Manages a map of tax groups, each containing a list of applicable taxes, and provides methods to retrieve group details.
-
-Product.java: Contains a map of predefined products with their details and provides methods to access this information.
-
-ProductDetails.java: Defines the structure for product details, including price and tax group.
-
-InvoiceGenerator.java: Handles the core functionality, including user input, product selection, tax calculation, and invoice generation.
-
-Usage
-Clone the repository and navigate to the project directory.
-Compile and run the InvoiceGenerator class.
-Follow the prompts to select products. Type 'done' when finished.
-View the generated invoice with detailed calculations.
+1. Download the Zip file of code
+2. Launch Eclipse IDE on your computer.
+3. Create a package in eclipse named as 'Invoice'
+4. And Now import the code into package.
